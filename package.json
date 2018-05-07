@@ -1,0 +1,51 @@
+{
+  "name": "workers-ci",
+  "version": "1.1.2",
+  "description": "Automate and test Cloudflare Workers deployments",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shagamemnon/workers-ci.git"
+  },
+  "engines": {
+    "node": "^4.5.0 || ^6.9.0 || ^8.9.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cloudflare workers",
+    "cf workers",
+    "workers",
+    "cloudflare",
+    "cloudflare service workers",
+    "javascript",
+    "workers cli"
+  ],
+  "author": "Frank Taylor",
+  "license": "MIT",
+  "dependencies": {
+    "del": "^3.0.0",
+    "dotenv": "^5.0.1",
+    "gulp": "^4.0.0",
+    "gulp-better-rollup": "^3.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^2.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-watch": "^5.0.0",
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5",
+    "yargs": "^11.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/shagamemnon/workers-ci/issues"
+  },
+  "homepage": "https://github.com/shagamemnon/workers-ci#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {}
+}
