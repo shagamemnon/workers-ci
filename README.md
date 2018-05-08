@@ -34,9 +34,6 @@ gulp workers.download --script=my-worker
 # Delete a Worker from Cloudflare
 gulp workers.delete --script=my-worker
 
-# Using Rollup to bundle the script file in /worker-bundles and deploy to Cloudflare Workers
-gulp workers.rollup
-
 # View all routes
 gulp workers.routes.get
 
