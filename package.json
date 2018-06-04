@@ -25,8 +25,16 @@
   "author": "Frank Taylor",
   "license": "MIT",
   "dependencies": {
+    "@sailshq/lodash": "^3.10.2",
+    "body-parser": "~1.18.2",
+    "browserify": "^16.2.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
     "del": "^3.0.0",
     "dotenv": "^5.0.1",
+    "ejs": "~2.5.7",
+    "end-of-stream": "^1.4.1",
+    "express": "~4.15.5",
     "gulp": "^4.0.0",
     "gulp-better-rollup": "^3.0.0",
     "gulp-cached": "^1.1.1",
@@ -35,9 +43,20 @@
     "gulp-plumber": "^1.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
     "gulp-watch": "^5.0.0",
+    "gulplog": "^1.0.0",
+    "machine": "^15.0.0-0",
+    "machinepack-http": "^6.0.1",
+    "machinepack-urls": "^6.0.0-2",
+    "mkdirp": "^0.5.1",
+    "morgan": "~1.9.0",
     "request": "^2.85.0",
     "request-promise-native": "^1.0.5",
+    "rollup-stream": "^1.24.1",
+    "serve-favicon": "~2.4.5",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
     "yargs": "^11.0.0"
   },
   "bugs": {
@@ -47,5 +66,16 @@
   "directories": {
     "example": "examples"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "gulp-beautify": "^2.0.1",
+    "gulp-concat-util": "^0.5.5",
+    "gulp-headerfooter": "^1.0.3",
+    "mocha": "^5.2.0",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
 }

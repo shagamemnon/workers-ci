@@ -5,6 +5,7 @@ deployments/
 !worker-bundles/bundle.js
 !workers/my-worker.js
 !deployments/my-worker
+**.DS_Store
 
 .env
 # Logs
