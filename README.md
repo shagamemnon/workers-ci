@@ -7,13 +7,6 @@ npm install gulp@next -g --save
 git clone https://github.com/shagamemnon/workers-ci.git && cd workers-ci && npm install
 ```
 
-## Install via npm
-```bash
-# Gulp 4 required
-npm i workers-ci --save
-npm install gulp@next -g --save
-```
-
 ## Setup
 1. Write and store all your local Worker scripts in `workers` or `worker-bundles`
 2. Set environment variables:
@@ -40,9 +33,6 @@ gulp workers.download --script=my-worker
 
 # Delete a Worker from Cloudflare
 gulp workers.delete --script=my-worker
-
-# Using Rollup to bundle the script file in /worker-bundles and deploy to Cloudflare Workers
-gulp workers.rollup
 
 # View all routes
 gulp workers.routes.get
